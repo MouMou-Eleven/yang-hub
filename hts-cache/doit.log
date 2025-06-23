@@ -1,5 +1,5 @@
 -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://yang-hub/ -O1 "D:\本地导航网站\本地导航站静态" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-File generated automatically on Tue, 10 Jun 2025 14:33:56, do NOT edit
+File generated automatically on Tue, 24 Jun 2025 07:49:03, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)
