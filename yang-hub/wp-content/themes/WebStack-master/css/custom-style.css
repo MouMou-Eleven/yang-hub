@@ -1,0 +1,355 @@
+/*
+ * @Theme Name:WebStack
+ * @Theme URI:https://www.iotheme.cn/
+ * @Author: iowen
+ * @Author URI: https://www.iowen.cn/
+ * @Description: 自定义样式
+ */
+
+/* 主题切换器 */
+.theme-switcher {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 9999;
+}
+
+.theme-switcher-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #61AFEF;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.theme-options {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: none;
+    width: 120px;
+}
+
+.theme-options.active {
+    display: block;
+}
+
+.theme-option {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.theme-option:hover {
+    background: #f5f5f5;
+}
+
+/* 悬浮文本样式 */
+.hover-full-text {
+    position: absolute;
+    background-color: rgba(40, 44, 52, 0.95);
+    color: #ABB2BF;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: none;
+    max-width: 400px;
+}
+
+/* 鼠标悬浮显示全部网站简介 */
+.site-body p, .site-description {
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 默认显示两行 */
+    -webkit-box-orient: vertical;
+    transition: all 0.3s ease;
+}
+
+.site-body p:hover, .site-description:hover {
+    -webkit-line-clamp: unset; /* 悬浮时显示全部内容 */
+    background-color: rgba(40, 44, 52, 0.9);
+    color: #ABB2BF;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 100;
+    max-width: 100%;
+}
+
+/* 主题样式 */
+
+/* 1. 默认主题 */
+body.theme-default {
+    background-color: #f9f9f9 !important;
+    color: #333 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+.theme-default .panel, 
+.theme-default .comments-area {
+    background-color: #fff !important;
+    border: 1px solid #e4ecf3 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.theme-default .sidebar-menu {
+    background-color: #2c2e2f !important;
+}
+
+.theme-default .sidebar-menu .main-menu a {
+    color: #979898 !important;
+    border-bottom: 1px solid #313437 !important;
+}
+
+.theme-default .site-name:before,
+.theme-default h4.text-gray:before,
+.theme-default h4.text-gray:after {
+    content: none;
+}
+
+/* 2. 代码风格主题 */
+body.theme-code {
+    background-color: #282C34 !important;
+    color: #ABB2BF !important;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+}
+
+.theme-code .panel, 
+.theme-code .comments-area {
+    background-color: #21252B !important;
+    border: 1px solid #3A3F4B !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.theme-code .sidebar-menu {
+    background-color: #21252B !important;
+}
+
+.theme-code .sidebar-menu .main-menu a {
+    color: #ABB2BF !important;
+    border-bottom: 1px solid #3A3F4B !important;
+}
+
+.theme-code .sidebar-menu .main-menu a:hover {
+    color: #61AFEF !important;
+    background-color: #2C313A !important;
+}
+
+.theme-code .sidebar-menu .main-menu li.active>a {
+    color: #98C379 !important;
+    background-color: #2C313A !important;
+}
+
+.theme-code .sidebar-menu .logo-env {
+    border-bottom: 1px solid #3A3F4B !important;
+}
+
+.theme-code .navbar .navbar-content {
+    background-color: #21252B !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.theme-code .user-info-navbar .user-info-menu>li>a {
+    color: #ABB2BF !important;
+}
+
+.theme-code .user-info-navbar .user-info-menu>li>a:hover {
+    color: #61AFEF !important;
+}
+
+.theme-code .xe-widget.xe-conversations {
+    background-color: #21252B !important;
+    border: 1px solid #3A3F4B !important;
+}
+
+.theme-code .overflowClip_1 {
+    color: #E06C75 !important;
+}
+
+.theme-code .site-name {
+    color: #E5C07B !important;
+}
+
+.theme-code .site-name:before {
+    content: '// ';
+    color: #5C6370;
+}
+
+.theme-code h4.text-gray:before {
+    content: '/* ';
+    color: #5C6370;
+}
+
+.theme-code h4.text-gray:after {
+    content: ' */';
+    color: #5C6370;
+}
+
+/* 3. 液态玻璃风格 */
+body.theme-glass {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364) !important;
+    color: #ffffff !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+.theme-glass .panel, 
+.theme-glass .comments-area,
+.theme-glass .sidebar-menu,
+.theme-glass .navbar .navbar-content,
+.theme-glass .xe-widget.xe-conversations {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.theme-glass .sidebar-menu .main-menu a {
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.theme-glass .sidebar-menu .main-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.theme-glass .overflowClip_1 {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.theme-glass .site-name {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.theme-glass .btn {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.theme-glass .btn:hover {
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: #ffffff !important;
+}
+
+.theme-glass .site-name:before,
+.theme-glass h4.text-gray:before,
+.theme-glass h4.text-gray:after {
+    content: none;
+}
+
+.theme-glass h4.text-gray {
+    color: #ffffff !important;
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+/* 4. 极简主题 */
+body.theme-minimal {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.theme-minimal .panel, 
+.theme-minimal .comments-area,
+.theme-minimal .navbar .navbar-content,
+.theme-minimal .xe-widget.xe-conversations {
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8px !important;
+}
+
+.theme-minimal .sidebar-menu {
+    background-color: #f5f5f7 !important;
+}
+
+.theme-minimal .sidebar-menu .main-menu a {
+    color: #333333 !important;
+    border-bottom: 1px solid #eeeeee !important;
+}
+
+.theme-minimal .sidebar-menu .main-menu a:hover {
+    background-color: #f0f0f2 !important;
+    color: #000000 !important;
+}
+
+.theme-minimal .overflowClip_1 {
+    color: #333333 !important;
+    font-weight: 500;
+}
+
+.theme-minimal .site-name {
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+.theme-minimal .btn {
+    background: #f5f5f7 !important;
+    color: #333333 !important;
+    border: 1px solid #e5e5e7 !important;
+}
+
+.theme-minimal .btn:hover {
+    background: #e5e5e7 !important;
+}
+
+.theme-minimal .site-name:before,
+.theme-minimal h4.text-gray:before,
+.theme-minimal h4.text-gray:after {
+    content: none;
+}
+
+.theme-minimal h4.text-gray {
+    color: #333333 !important;
+    border-left: 4px solid #999999;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #282C34;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4B5363;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #61AFEF;
+}
+
+/* AI助手样式 */
+.io-ai-assistant {
+    background-color: #21252B !important;
+    border: 1px solid #3A3F4B !important;
+}
+
+.io-ai-chat-header {
+    background-color: #3A3F4B !important;
+    color: #ABB2BF !important;
+}
+
+.io-ai-button {
+    background-color: #61AFEF !important;
+} 
