@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Mon, 21 Jul 2025 12:41:22 at http://yang-hub/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 29 Jul 2025 12:33:34 at http://yang-hub/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://yang-hub/ -O1 "D:\本地导航网站\本地导航站静态" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,15 +6,15 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-12:41:23	Warning: 	Note: due to yang-hub remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
-12:41:46	Error: 	"Not Found" (404) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
-12:41:47	Warning: 	File not parsed, looks like binary: yang-hub/wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff2?v=4.7.0
-12:41:47	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-12:41:47	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot? (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-12:41:47	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff2 (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-12:41:47	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-12:41:47	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.ttf (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-12:41:47	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.svg (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:33:34	Warning: 	Note: due to yang-hub remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+12:33:58	Error: 	"Not Found" (404) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
+12:33:59	Warning: 	File not parsed, looks like binary: yang-hub/wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff2?v=4.7.0
+12:33:59	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:33:59	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot? (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:33:59	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff2 (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:33:59	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:33:59	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.ttf (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:33:59	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.svg (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
 
-HTTrack Website Copier/3.49-2 mirror complete in 25 seconds : 42 links scanned, 34 files written (2476468 bytes overall), 13 files updated [677421 bytes received at 27096 bytes/sec], 177 bytes transferred using HTTP compression in 1 files, ratio 79%, 1.7 requests per connection
+HTTrack Website Copier/3.49-2 mirror complete in 25 seconds : 42 links scanned, 34 files written (2496517 bytes overall), 11 files updated [685837 bytes received at 27433 bytes/sec], 177 bytes transferred using HTTP compression in 1 files, ratio 79%, 1.7 requests per connection
 (7 errors, 2 warnings, 0 messages)
