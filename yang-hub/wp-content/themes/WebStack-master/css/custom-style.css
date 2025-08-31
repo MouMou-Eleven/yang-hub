@@ -61,30 +61,74 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     display: none;
-    max-width: 400px;
+    max-width: 520px;
+    line-height: 1.55;
+    white-space: normal;
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+    transition: opacity .28s ease, transform .28s cubic-bezier(.22,.61,.36,1);
 }
 
-/* 鼠标悬浮显示全部网站简介 */
-.site-body p, .site-description {
-    position: relative;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* 默认显示两行 */
-    -webkit-box-orient: vertical;
-    transition: all 0.3s ease;
+.hover-full-text.is-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 
-.site-body p:hover, .site-description:hover {
-    -webkit-line-clamp: unset; /* 悬浮时显示全部内容 */
-    background-color: rgba(40, 44, 52, 0.9);
-    color: #ABB2BF;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+/* 箭头：使用伪元素，根据上下位置切换方向 */
+.hover-full-text::after {
+    content: "";
     position: absolute;
-    z-index: 100;
-    max-width: 100%;
+    width: 0; height: 0;
+    border: 8px solid transparent;
+    pointer-events: none;
+}
+.hover-full-text.pos-bottom::after {
+    top: -8px;
+    left: 16px;
+    border-width: 8px 8px 0 8px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    /* 用伪元素 before 画真正颜色，避免锯齿 */
+}
+.hover-full-text.pos-top::after {
+    bottom: -8px;
+    left: 16px;
+    border-width: 0 8px 8px 8px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+/* 采用双伪元素：:before 为有色三角，:after 作为占位（已上） */
+.hover-full-text.pos-bottom::before,
+.hover-full-text.pos-top::before {
+    content: "";
+    position: absolute;
+    width: 0; height: 0;
+    border: 8px solid transparent;
+}
+.hover-full-text.pos-bottom::before {
+    top: -8px;
+    left: 16px;
+    border-width: 0 8px 8px 8px;
+    border-bottom-color: rgba(40, 44, 52, 0.95);
+}
+.hover-full-text.pos-top::before {
+    bottom: -8px;
+    left: 16px;
+    border-width: 8px 8px 0 8px;
+    border-top-color: rgba(40, 44, 52, 0.95);
+}
+
+/* 保持原有布局，不更改描述段落默认展示行数 */
+
+/* Tooltip 优化：允许长文本换行并增大宽度，便于展示完整简介 */
+.tooltip-inner {
+    max-width: 520px;
+    white-space: normal;
+    text-align: left;
 }
 
 /* 主题样式 */

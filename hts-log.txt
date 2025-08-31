@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 10 Aug 2025 20:31:00 at http://yang-hub/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 01 Sep 2025 00:20:10 at http://yang-hub/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://yang-hub/ -O1 "D:\æœ¬åœ°å¯¼èˆªç½‘ç«™\æœ¬åœ°å¯¼èˆªç«™é™æ€" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,40 +6,19 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-20:31:00	Warning: 	Cache: damaged cache, trying to repair
-20:31:00	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
-20:31:00	Warning: 	Cache: error trying to open the cache
-20:31:01	Warning: 	HTML file (187204 bytes) retransferred due to lack of cache: yang-hub/
-20:31:01	Warning: 	Note: due to yang-hub remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
-20:31:12	Warning: 	HTML file (234836 bytes) retransferred due to lack of cache: yang-hub/wp-json/
-20:31:13	Warning: 	HTML file (28782 bytes) retransferred due to lack of cache: yang-hub/glossary/
-20:31:14	Warning: 	HTML file (29889 bytes) retransferred due to lack of cache: yang-hub/sample-page/
-20:31:19	Warning: 	HTML file (29958 bytes) retransferred due to lack of cache: yang-hub/sample-page-2/
-20:31:19	Warning: 	HTML file (32570 bytes) retransferred due to lack of cache: yang-hub/bulletin/ç½‘ç«™å£°æ˜/
-20:31:31	Error: 	Can not remove old file /wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025
-20:31:31	Error: 	Can not remove old file /wp-content/themes/WebStack-master/css/nav.css?ver=1.2025
-20:31:31	Error: 	Can not remove old file /wp-content/themes/WebStack-master/js/jquery-3.7.1.min.js?ver=1.2025
-20:31:38	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for yang-hub/wp-content/uploads/2025/05/cropped-LOGO2-1-32x32.png, 'D:/æœ¬åœ°å¯¼èˆªç½‘ç«™/æœ¬åœ°å¯¼èˆªç«™é™æ€/yang-hub/wp-content/uploads/2025/05/cropped-LOGO2-1-32x32.html' could not be found on disk
-20:31:38	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for yang-hub/wp-content/uploads/2025/05/cropped-LOGO2-1-180x180.png, 'D:/æœ¬åœ°å¯¼èˆªç½‘ç«™/æœ¬åœ°å¯¼èˆªç«™é™æ€/yang-hub/wp-content/uploads/2025/05/cropped-LOGO2-1-180x180.html' could not be found on disk
-20:31:38	Error: 	Can not remove old file /wp-content/themes/WebStack-master/css/custom-style.css
-20:31:38	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for yang-hub/wp-content/uploads/2025/05/LOGO3-1-scaled-e1747405549286.png, 'D:/æœ¬åœ°å¯¼èˆªç½‘ç«™/æœ¬åœ°å¯¼èˆªç«™é™æ€/yang-hub/wp-content/uploads/2025/05/LOGO3-1-scaled-e1747405549286.html' could not be found on disk
-20:31:40	Warning: 	Retry after error -5 (Unable to get server's address: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ ) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
-20:31:40	Warning: 	Retry after error -5 (Unable to get server's address: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ ) at link https://picasso-static.xiaohongshu.com/fe-platform/f43dc4a8baf03678996c62d8db6ebc01a82256ff.png (from yang-hub/)
-20:31:40	Warning: 	Retry after error -5 (Unable to get server's address: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ ) at link https://img.alicdn.com/imgextra/i4/O1CN01EfJVFQ1uZPd7W4W6i_!!6000000006051-2-tps-112-112.png (from yang-hub/)
-20:31:40	Error: 	Can not remove old file /wp-content/themes/WebStack-master/js/app.js?ver=1.2025
-20:31:40	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.eot?v=4.7.0
-20:31:40	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.eot?
-20:31:40	Warning: 	File not parsed, looks like binary: yang-hub/wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff2?v=4.7.0
-20:31:40	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff?v=4.7.0
-20:31:40	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.ttf?v=4.7.0
-20:31:40	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.svg?v=4.7.0
-20:31:48	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
-20:31:48	Warning: 	Unexpected 412/416 error (Requested Range Not Satisfiable) for yang-hub/wp-includes/js/comment-reply.min.js?ver=6.8.2, 'D:/æœ¬åœ°å¯¼èˆªç½‘ç«™/æœ¬åœ°å¯¼èˆªç«™é™æ€/yang-hub/wp-includes/js/comment-reply.min6c2d.html' could not be found on disk
-20:31:48	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://picasso-static.xiaohongshu.com/fe-platform/f43dc4a8baf03678996c62d8db6ebc01a82256ff.png (from yang-hub/)
-20:31:48	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://img.alicdn.com/imgextra/i4/O1CN01EfJVFQ1uZPd7W4W6i_!!6000000006051-2-tps-112-112.png (from yang-hub/)
-20:31:48	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
-20:31:48	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://picasso-static.xiaohongshu.com/fe-platform/f43dc4a8baf03678996c62d8db6ebc01a82256ff.png (from yang-hub/)
-20:31:48	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://img.alicdn.com/imgextra/i4/O1CN01EfJVFQ1uZPd7W4W6i_!!6000000006051-2-tps-112-112.png (from yang-hub/)
+00:20:11	Warning: 	Note: due to yang-hub remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+00:20:36	Error: 	Can not remove old file /wp-content/uploads/2025/05/cropped-LOGO2-1-180x180.png
+00:20:36	Error: 	Can not remove old file /wp-content/uploads/2025/05/LOGO3-1-scaled-e1747405549286.png
+00:20:37	Error: 	"Not Found" (404) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
+00:20:38	Warning: 	File not parsed, looks like binary: yang-hub/wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff2?v=4.7.0
+00:20:38	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff?v=4.7.0
+00:20:38	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+00:20:38	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot? (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+00:20:38	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff2 (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+00:20:38	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+00:20:38	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.ttf (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+00:20:38	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.svg (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+00:20:38	Error: 	Can not remove old file /wp-includes/js/comment-reply.min.js?ver=6.8.2
 
-HTTrack Website Copier/3.49-2 mirror complete in 48 seconds : 48 links scanned, 24 files written (1229949 bytes overall) [1246266 bytes received at 25963 bytes/sec], 2.2 requests per connection
-(13 errors, 21 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 28 seconds : 44 links scanned, 32 files written (2274177 bytes overall), 13 files updated [836226 bytes received at 29865 bytes/sec], 177 bytes transferred using HTTP compression in 1 files, ratio 79%, 3.6 requests per connection
+(11 errors, 2 warnings, 0 messages)
