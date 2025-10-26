@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sat, 27 Sep 2025 03:59:42 at http://yang-hub/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 26 Oct 2025 11:59:41 at http://yang-hub/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://yang-hub/ -O1 "D:\本地导航网站\本地导航站静态" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,19 +6,18 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-03:59:42	Warning: 	Note: due to yang-hub remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
-04:00:03	Error: 	Can not remove old file /wp-content/uploads/2025/05/cropped-LOGO2-1-180x180.png
-04:00:03	Error: 	Can not remove old file /wp-content/uploads/2025/05/LOGO3-1-scaled-e1747405549286.png
-04:00:05	Error: 	"Not Found" (404) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
-04:00:06	Warning: 	File not parsed, looks like binary: yang-hub/wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff2?v=4.7.0
-04:00:06	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff?v=4.7.0
-04:00:06	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-04:00:06	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot? (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-04:00:06	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff2 (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-04:00:06	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-04:00:06	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.ttf (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-04:00:06	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.svg (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
-04:00:06	Error: 	Can not remove old file /wp-includes/js/comment-reply.min.js?ver=6.8.2
+11:59:48	Warning: 	Note: due to yang-hub remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+12:00:02	Error: 	Can not remove old file /wp-content/uploads/2025/05/cropped-LOGO2-1-180x180.png
+12:00:05	Error: 	Can not remove old file /wp-content/uploads/2025/05/LOGO3-1-scaled-e1747405549286.png
+12:00:07	Error: 	"Not Found" (404) at link widget.seniverse.com/widget/chameleon.js (from yang-hub/)
+12:00:07	Warning: 	File not parsed, looks like binary: yang-hub/wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff2?v=4.7.0
+12:00:07	Error: 	Can not remove old file /wp-content/themes/WebStack-master/fonts/fontawesome-webfont.woff?v=4.7.0
+12:00:08	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:00:08	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.eot? (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:00:08	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff2 (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:00:08	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.woff (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:00:08	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.ttf (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
+12:00:08	Error: 	"Not Found" (404) at link yang-hub/wp-content/themes/WebStack-master/fonts/glyphicons-halflings-regular.svg (from yang-hub/wp-content/themes/WebStack-master/css/bootstrap.css?ver=1.2025)
 
-HTTrack Website Copier/3.49-2 mirror complete in 24 seconds : 45 links scanned, 33 files written (2292502 bytes overall), 12 files updated [766090 bytes received at 31920 bytes/sec], 177 bytes transferred using HTTP compression in 1 files, ratio 79%, 3.0 requests per connection
-(11 errors, 2 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 27 seconds : 45 links scanned, 34 files written (2314129 bytes overall), 12 files updated [782135 bytes received at 28967 bytes/sec], 177 bytes transferred using HTTP compression in 1 files, ratio 79%, 3.2 requests per connection
+(10 errors, 2 warnings, 0 messages)
